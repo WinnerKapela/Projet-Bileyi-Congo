@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script2.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <title>Le resto, accueil</title>
+</head>
+<body>
+    <div class="Page">
+        <header>
+            <nav>
+                <h1><a href="index.html">Bileyi<span> Congo</span><img src="img/plate.png" alt=""></a></h1>
+                <ul id="NavLink">
+                    <li><a href="index.html">Accueil <i class="fa fa-home"></i></a></li>
+                    <li><a class="actif" href="plats.html">Plats locals <i class="fa-solid fa-pizza-slice"></i></a></li>
+                    <li><a href="stories.html">Stories <i class="fa-solid fa-comments"></i></a></li>
+                    <li><a href="a-propos.html">A propos <i class="fa-solid fa-info"></i></a></li>
+                </ul>
+                <div id="bars" class="bars-Menu">
+                    <span class="bars"></span>
+                    <span class="bars"></span>
+                    <span class="bars"></span>
+                </div>
+            </nav>
+            <button id="BtnMode" class="mode">
+                <i class="fa fa-sun"></i>
+                <i class="fa fa-moon"></i>
+                <i class="fa fa-caret-down"></i>
+            </button>
+        </header>
+
+        <div>
+            <div class="banniere"> 
+                
+                
+            </div>
+            <div id="SearchBox" class="Search-box">
+                <input id="Recherche" type="search" name="" placeholder="Rechercher un plat">
+                <button id="Search"><i class="fas fa-search"></i></button>
+                <div id="missItem" class="missItemhide"></div>
+            </div>
+        </div>
+
+        <div class="content" id="plat-content">
+            
+            <div id="present-plats">
+               
+                <div class="favories">
+               
+                    <div id="FoodImg">
+                        <div><a href="fumbwa.html"><img src="img/fumbwa.jpg" alt="Nourriture"><span class="detail"><h3>Mbinzo</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="fumbwa.html">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href=""><img src="img/DindonKwanga.jpg" alt="Nourriture"><span class="detail"><h3>Fumbwa</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href=""><img src="img/DindonKwanga.jpg" alt="Nourriture"><span class="detail"><h3>Saka-Saka</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href="fufu.html"><img src="img/fufu.jpg" alt="Nourriture"><span class="detail"><h3>Fufu</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="fufu.html">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                       
+                        
+                        
+                    </div>
+                    <div id="FoodImg">
+                        <div><a href="saka-saka.html"><img src="img/pondu.jpg" alt="Nourriture"><span class="detail"><h3>Mbinzo</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="saka-saka.html">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href="mbinzo.html"><img src="img/Mbinzo.jpg" alt="Nourriture"><span class="detail"><h3>Fumbwa</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="mbinzo.html">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href=""><img src="img/Saka-saka.jpg" alt="Nourriture"><span class="detail"><h3>Saka-Saka</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href="fufu.html"><img src="img/fufu.jpg" alt="Nourriture"><span class="detail"><h3>Fufu</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="fufu.html">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                       
+                        
+                        
+                    </div>
+                    <div id="FoodImg">
+                        <div><a href="saka-saka.html"><img src="img/pondu.jpg" alt="Nourriture"><span class="detail"><h3>Mbinzo</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="saka-saka.html">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href=""><img src="img/DindonKwanga.jpg" alt="Nourriture"><span class="detail"><h3>Fumbwa</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href="mbinzo.html"><img src="img/Mbinzo.jpg" alt="Nourriture"><span class="detail"><h3>Saka-Saka</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="mbinzo.html">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href="fufu.html"><img src="img/fufu.jpg" alt="Nourriture"><span class="detail"><h3>Fufu</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="fufu.html">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                       
+                        
+                        
+                    </div>
+                    <div id="FoodImg">
+                        <div><a href=""><img src="img/DindonKwanga.jpg" alt="Nourriture"><span class="detail"><h3>Mbinzo</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href="fumbwa.html"><img src="img/fumbwa.jpg" alt="Nourriture"><span class="detail"><h3>Fumbwa</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="fumbwa.html">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href=""><img src="img/Saka-saka.jpg" alt="Nourriture"><span class="detail"><h3>Saka-Saka</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="saka-saka.html">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href=""><img src="img/Mbinzo.jpg" alt="Nourriture"><span class="detail"><h3>Fufu</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="mbinzo.html">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                       
+                        
+                        
+                    </div>
+                    <div id="FoodImg">
+                        <div><a href="mbinzo.html"><img src="img/Mbinzo.jpg" alt="Nourriture"><span class="detail"><h3>Mbinzo</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href=""><img src="img/fumbwa.jpg" alt="Nourriture"><span class="detail"><h3>Fumbwa</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href=""><img src="img/DindonKwanga.jpg" alt="Nourriture"><span class="detail"><h3>Saka-Saka</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                        <div><a href="fufu.html"><img src="img/fufu.jpg" alt="Nourriture"><span class="detail"><h3>Fufu</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam voluptas.</span></a><span class="more"><a href="">Voir plus <i class="fa fa-arrow-right"></i></a></span></div>
+                       
+                    </div>
+                </div>
+              
+            </div>
+            
+            </div>
+    
+            <footer>
+                <div>
+                    <p>Bileyi Congo by Winner Kapela &copy; 2023</p>
+                    <a href=""><img src="img/logoKashProd.jpg" alt="">Kash Production</a>  
+                </div>
+            </footer>
+    </div>
+    
+</body>
+</html>
